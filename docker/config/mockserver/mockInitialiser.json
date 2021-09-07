@@ -1,0 +1,20 @@
+[
+  {
+    "httpRequest": {
+      "path": "/movies"
+    },
+    "httpResponse": {
+      "headers": {
+        "Content-Type": ["application/json"]
+      },
+      "body": [
+        {
+          "title": "Skyfall",
+          "genre": "Action",
+          "rating": 8,
+          "releaseYear": 2012
+        }
+      ]
+    }
+  }
+]
