@@ -20,7 +20,7 @@ To access it navigate to http://localhost:8080/h2-console/ in a browser
 
 JDBC URL: jdbc:h2:mem:ccmdb  
 Username: sa  
-Password: password
+Password: movies
 
 
 
