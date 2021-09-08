@@ -57,7 +57,7 @@ public class AbstractContainerBaseTest {
 
         client.when(request()
                         .withMethod("GET")
-                        .withPath("/movies"))
+                        .withPath("/blockbusted-movies"))
                 .respond(response()
                         .withBody(expectedMoviesBody)
                         .withContentType(MediaType.APPLICATION_JSON)

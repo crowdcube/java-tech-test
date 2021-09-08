@@ -1,0 +1,39 @@
+{
+  "movies": [
+    {
+      "id": 1,
+      "title": "The Shawshank Redemption",
+      "genre": "Drama",
+      "rating": 8,
+      "releaseYear": 1994
+    },
+    {
+      "id": 2,
+      "title": "The Godfather",
+      "genre": "Drama",
+      "rating": 9,
+      "releaseYear": 1972
+    },
+    {
+      "id": 3,
+      "title": "The Dark Knight",
+      "genre": "Drama",
+      "rating": 7,
+      "releaseYear": 2008
+    },
+    {
+      "id": 4,
+      "title": "Inception",
+      "genre": "Action",
+      "rating": 2,
+      "releaseYear": 2010
+    },
+    {
+      "id": 5,
+      "title": "Toy Story",
+      "genre": "Family",
+      "rating": 10,
+      "releaseYear": 1995
+    }
+  ]
+}

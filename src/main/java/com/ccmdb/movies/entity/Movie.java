@@ -11,6 +11,7 @@ import javax.persistence.Entity;
 import javax.persistence.GeneratedValue;
 import javax.persistence.GenerationType;
 import javax.persistence.Id;
+import javax.validation.constraints.NotBlank;
 
 @Getter
 @Setter
@@ -18,16 +19,18 @@ import javax.persistence.Id;
 @AllArgsConstructor
 @Builder
 @ToString
-@Entity
+@Entity(name = "movies")
 public class Movie  {
 
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
-    private int id;
+    private Integer id;
+    @NotBlank(message = "Title is mandatory")
     private String title;
+    @NotBlank(message = "Genre is mandatory")
     private String genre;
-    private int rating;
-    private int releaseYear;
+    private Integer rating;
+    private Integer releaseYear;
 
 }
 
